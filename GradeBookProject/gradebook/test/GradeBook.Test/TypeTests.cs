@@ -25,12 +25,12 @@ namespace GradeBook.Test
         public void Test1()
         {
             var x = GetInt();
-            SetInt(ref x);
+            SetInt(x);
 
             Assert.Equal(42, x);
         }
 
-        private void SetInt(ref int y)
+        private void SetInt(int y)
         {
             y = 42;
         }
