@@ -6858,11 +6858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\modestas.alvinskis\\Desktop\\TainingC#\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
+      "projectUniqueName": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
       "projectName": "GradeBook.Test",
-      "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\TainingC#\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
+      "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
       "packagesPath": "C:\\Users\\modestas.alvinskis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\modestas.alvinskis\\Desktop\\TainingC#\\gradebook\\test\\GradeBook.Test\\obj\\",
+      "outputPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6879,8 +6879,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\modestas.alvinskis\\Desktop\\TainingC#\\gradebook\\src\\Gradebook\\Gradebook.csproj": {
-              "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\TainingC#\\gradebook\\src\\Gradebook\\Gradebook.csproj"
+            "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\src\\Gradebook\\Gradebook.csproj": {
+              "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\src\\Gradebook\\Gradebook.csproj"
             }
           }
         }
