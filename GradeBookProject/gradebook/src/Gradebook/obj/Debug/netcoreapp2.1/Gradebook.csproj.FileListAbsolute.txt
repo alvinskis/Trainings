@@ -18,3 +18,13 @@ C:\Users\modestas.alvinskis\Desktop\Tainings\GradeBookProject\gradebook\src\Grad
 C:\Users\modestas.alvinskis\Desktop\Tainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.AssemblyInfo.cs
 C:\Users\modestas.alvinskis\Desktop\Tainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.dll
 C:\Users\modestas.alvinskis\Desktop\Tainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\bin\Debug\netcoreapp2.1\Gradebook.deps.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\bin\Debug\netcoreapp2.1\Gradebook.runtimeconfig.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\bin\Debug\netcoreapp2.1\Gradebook.runtimeconfig.dev.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\bin\Debug\netcoreapp2.1\Gradebook.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\bin\Debug\netcoreapp2.1\Gradebook.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.AssemblyInfoInputs.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.AssemblyInfo.cs
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\GradeBookProject\gradebook\src\Gradebook\obj\Debug\netcoreapp2.1\Gradebook.pdb
