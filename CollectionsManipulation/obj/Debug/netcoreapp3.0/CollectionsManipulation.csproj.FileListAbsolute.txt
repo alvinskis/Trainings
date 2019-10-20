@@ -1,0 +1,11 @@
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\bin\Debug\netcoreapp3.0\CollectionsManipulation.exe
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\bin\Debug\netcoreapp3.0\CollectionsManipulation.deps.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\bin\Debug\netcoreapp3.0\CollectionsManipulation.runtimeconfig.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\bin\Debug\netcoreapp3.0\CollectionsManipulation.runtimeconfig.dev.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\bin\Debug\netcoreapp3.0\CollectionsManipulation.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\bin\Debug\netcoreapp3.0\CollectionsManipulation.pdb
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\obj\Debug\netcoreapp3.0\CollectionsManipulation.csprojAssemblyReference.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\obj\Debug\netcoreapp3.0\CollectionsManipulation.AssemblyInfoInputs.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\obj\Debug\netcoreapp3.0\CollectionsManipulation.AssemblyInfo.cs
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\obj\Debug\netcoreapp3.0\CollectionsManipulation.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsManipulation\obj\Debug\netcoreapp3.0\CollectionsManipulation.pdb

@@ -1,0 +1,11 @@
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\bin\Debug\netcoreapp3.0\CollectionsDictionaries.exe
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\bin\Debug\netcoreapp3.0\CollectionsDictionaries.deps.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\bin\Debug\netcoreapp3.0\CollectionsDictionaries.runtimeconfig.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\bin\Debug\netcoreapp3.0\CollectionsDictionaries.runtimeconfig.dev.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\bin\Debug\netcoreapp3.0\CollectionsDictionaries.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\bin\Debug\netcoreapp3.0\CollectionsDictionaries.pdb
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\obj\Debug\netcoreapp3.0\CollectionsDictionaries.csprojAssemblyReference.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\obj\Debug\netcoreapp3.0\CollectionsDictionaries.AssemblyInfoInputs.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\obj\Debug\netcoreapp3.0\CollectionsDictionaries.AssemblyInfo.cs
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\obj\Debug\netcoreapp3.0\CollectionsDictionaries.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\CollectionsDictionaries\obj\Debug\netcoreapp3.0\CollectionsDictionaries.pdb
