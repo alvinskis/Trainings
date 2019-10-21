@@ -1,0 +1,11 @@
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\bin\Debug\netcoreapp3.0\Exersice2.exe
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\bin\Debug\netcoreapp3.0\Exersice2.deps.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\bin\Debug\netcoreapp3.0\Exersice2.runtimeconfig.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\bin\Debug\netcoreapp3.0\Exersice2.runtimeconfig.dev.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\bin\Debug\netcoreapp3.0\Exersice2.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\bin\Debug\netcoreapp3.0\Exersice2.pdb
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\obj\Debug\netcoreapp3.0\Exersice2.csprojAssemblyReference.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\obj\Debug\netcoreapp3.0\Exersice2.AssemblyInfoInputs.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\obj\Debug\netcoreapp3.0\Exersice2.AssemblyInfo.cs
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\obj\Debug\netcoreapp3.0\Exersice2.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\Exersice2\obj\Debug\netcoreapp3.0\Exersice2.pdb
