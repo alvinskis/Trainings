@@ -32,14 +32,18 @@ namespace Exercices1
                     minLength = item.Length;
                     minWord = item;
                 }
-                if (item.Contains("cat"))
-                {
-                    var cat = item;
-                }
             }
+
             Console.WriteLine($"Max word: {maxWord}");
             Console.WriteLine($"Min word: {minWord}");
-            Console.WriteLine(cat);
+
+            foreach (var item in list)
+            {
+                if (item.Contains("cat"))
+                {
+                    Console.WriteLine($"Words with cat: {item}");
+                }
+            }
         }
     }
 }
