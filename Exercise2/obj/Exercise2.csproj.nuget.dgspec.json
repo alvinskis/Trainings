@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\Exercise2\\Exercise2.csproj": {}
+    "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\Exercise2\\Exercise2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\Exercise2\\Exercise2.csproj": {
+    "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\Exercise2\\Exercise2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\Exercise2\\Exercise2.csproj",
+        "projectUniqueName": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\Exercise2\\Exercise2.csproj",
         "projectName": "Exercise2",
-        "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\Exercise2\\Exercise2.csproj",
-        "packagesPath": "C:\\Users\\modestas.alvinskis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\Exercise2\\obj\\",
+        "projectPath": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\Exercise2\\Exercise2.csproj",
+        "packagesPath": "C:\\Users\\xmodi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\Exercise2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\modestas.alvinskis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\xmodi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

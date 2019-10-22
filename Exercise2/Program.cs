@@ -31,19 +31,6 @@ namespace Exercise2
 
             string[] thirdCollection = new string[] { "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
 
-            bool millionCondition1 = number % 1000000 == 0;
-            bool millionCondition2 = number % 1000000 != 0;
-            bool hundredThousandsCondition1 = number % 100000 == 0;
-            bool hundredThousandsCondition2 = number % 100000 != 0;
-            bool tenThousandsCondition1 = number % 10000 == 0;
-            bool tenThousandsCondition2 = number % 10000 != 0;
-            bool thousandsCondition1 = number % 1000 == 0;
-            bool thousandsCondition2 = number % 1000 != 0;
-            bool hundredCondition1 = number % 100 == 0;
-            bool hundredCondition2 = number % 100 != 0;
-            bool tenCondition1 = number % 10 == 0;
-            bool tenCondition2 = number % 10 != 0;
-
 
             if (number == 0)
             {
@@ -117,12 +104,10 @@ namespace Exercise2
                     if (isNegative == true)
                     {
                         Console.WriteLine($"minus {firstCollection[first]} thousands {firstCollection[third]} {(fourth > 20 ? secondCollection[fift] : firstCollection[fourth])} {(fourth > 20 ? firstCollection[sixth] : "")}");
-
                     }
                     else
                     {
                         Console.WriteLine($"{firstCollection[first]} thousands {firstCollection[third]} {(fourth > 20 ? secondCollection[fift] : firstCollection[fourth])} {(fourth > 20 ? firstCollection[sixth] : "")}");
-
                     }
                 }
                 else
@@ -130,12 +115,10 @@ namespace Exercise2
                     if (isNegative == true)
                     {
                         Console.WriteLine($"minus {firstCollection[first]} thousands {firstCollection[third]} hundred {(fourth > 20 ? secondCollection[fift] : firstCollection[fourth])} {(fourth > 20 ? firstCollection[sixth] : "")}");
-
                     }
                     else
                     {
                         Console.WriteLine($"{firstCollection[first]} thousands {firstCollection[third]} hundred {(fourth > 20 ? secondCollection[fift] : firstCollection[fourth])} {(fourth > 20 ? firstCollection[sixth] : "")}");
-
                     }
                 }
             }
@@ -158,7 +141,6 @@ namespace Exercise2
                     else
                     {
                         Console.WriteLine($"{secondCollection[first]} {firstCollection[third]} thousands {(sixth > 20 ? secondCollection[seveth] : firstCollection[sixth])} {(sixth > 20 ? firstCollection[eith] : "")}");
-
                     }
                 }
                 else
@@ -166,7 +148,6 @@ namespace Exercise2
                     if (isNegative == true)
                     {
                         Console.WriteLine($"minus {secondCollection[first]} {firstCollection[third]} thousands {firstCollection[fift]} hundred {(sixth > 20 ? secondCollection[seveth] : firstCollection[sixth])} {(sixth > 20 ? firstCollection[eith] : "")}");
-
                     }
                     else
                     {
@@ -189,26 +170,28 @@ namespace Exercise2
 
                 if (seveth == 0)
                 {
-                    Console.WriteLine($"{firstCollection[first]} hundred {firstCollection[third]} thousands {firstCollection[seveth]} {secondCollection[nine]} {firstCollection[ten]}");
+                    if (isNegative == true)
+                    {
+                        Console.WriteLine($"minus {firstCollection[first]} hundred {(third > 20 ? secondCollection[third] : firstCollection[third])} {(third > 20 ? firstCollection[third] : "")} thousands {firstCollection[seveth]} {(eith > 20 ? firstCollection[eith] : secondCollection[nine])} {(eith > 20 ? firstCollection[ten] : "")}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{firstCollection[first]} hundred {(third > 20 ? secondCollection[third] : firstCollection[third])} {(third > 20 ? firstCollection[third] : "")} thousands {firstCollection[seveth]} {(eith > 20 ? firstCollection[eith] : secondCollection[nine])} {(eith > 20 ? firstCollection[ten] : "")}");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine($"{firstCollection[first]} hundred {firstCollection[third]} thousands {firstCollection[seveth]} hundred {secondCollection[nine]} {firstCollection[ten]}");
+                    if (isNegative == true)
+                    {
+                        Console.WriteLine($"minus {firstCollection[first]} hundred {(third > 20 ? secondCollection[third] : firstCollection[third])} {(third > 20 ? firstCollection[third] : "")} thousands {firstCollection[seveth]} hundred {(eith > 20 ? secondCollection[nine] : firstCollection[eith])} {(eith > 20 ? firstCollection[ten] : "")}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{firstCollection[first]} hundred {(third > 20 ? secondCollection[third] : firstCollection[third])} {(third > 20 ? firstCollection[third] : "")} thousands {firstCollection[seveth]} hundred {(eith > 20 ? secondCollection[nine] : firstCollection[eith])} {(eith > 20 ? firstCollection[ten] : "")}");
+                    }
                 }
 
             }
-            //else if (number % 100 == 0)
-            //{
-            //    third = number / 100;
-            //    Console.WriteLine(firstCollection[third] + " " + "hundred");
-            //}
-            //else if (number % 100 != 0)
-            //{
-            //    first = number % 10;
-            //    second = number / 10;
-            //    third = number / 100;
-            //    Console.WriteLine(secondCollection[second] + " " + firstCollection[first] + " " + "hundred");
-            //}
         }
     }
 }

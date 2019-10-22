@@ -9,3 +9,14 @@ C:\Users\modestas.alvinskis\Desktop\Trainings\Exercise2\obj\Debug\netcoreapp3.0\
 C:\Users\modestas.alvinskis\Desktop\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.AssemblyInfo.cs
 C:\Users\modestas.alvinskis\Desktop\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.dll
 C:\Users\modestas.alvinskis\Desktop\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\bin\Debug\netcoreapp3.0\Exercise2.exe
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\bin\Debug\netcoreapp3.0\Exercise2.deps.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\bin\Debug\netcoreapp3.0\Exercise2.runtimeconfig.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\bin\Debug\netcoreapp3.0\Exercise2.runtimeconfig.dev.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\bin\Debug\netcoreapp3.0\Exercise2.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\bin\Debug\netcoreapp3.0\Exercise2.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.AssemblyInfoInputs.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.AssemblyInfo.cs
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercise2\obj\Debug\netcoreapp3.0\Exercise2.pdb
