@@ -17,3 +17,9 @@ Book repository(bendraus su duombaze(CSV failas), servisiukas), book service(nau
 Book klase su properties,
 
 servisas calina repo kad gauti duomenis, repo updatina juos.
+
+IBookService
+BookService - manipuliuosim duomenis, injectinam IBookRepository
+Book - modelis
+BookRepository : IBookRepository - gauna duomenis, siuncia duomenis  (IEnumberable<book> GetBooks())
+ReadCsv
