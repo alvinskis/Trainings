@@ -1,0 +1,14 @@
+C:\Users\xmodi\Desktop\BA3\BA3\BA3\bin\Debug\BA3.exe.config
+C:\Users\xmodi\Desktop\BA3\BA3\BA3\bin\Debug\BA3.exe
+C:\Users\xmodi\Desktop\BA3\BA3\BA3\bin\Debug\BA3.pdb
+C:\Users\xmodi\Desktop\BA3\BA3\BA3\obj\Debug\BA3.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\BA3\BA3\BA3\obj\Debug\BA3.csproj.CoreCompileInputs.cache
+C:\Users\xmodi\Desktop\BA3\BA3\BA3\obj\Debug\BA3.exe
+C:\Users\xmodi\Desktop\BA3\BA3\BA3\obj\Debug\BA3.pdb
+D:\C#\BA\BA3\BA3\bin\Debug\BA3.exe.config
+D:\C#\BA\BA3\BA3\bin\Debug\BA3.exe
+D:\C#\BA\BA3\BA3\bin\Debug\BA3.pdb
+D:\C#\BA\BA3\BA3\obj\Debug\BA3.csprojAssemblyReference.cache
+D:\C#\BA\BA3\BA3\obj\Debug\BA3.csproj.CoreCompileInputs.cache
+D:\C#\BA\BA3\BA3\obj\Debug\BA3.exe
+D:\C#\BA\BA3\BA3\obj\Debug\BA3.pdb

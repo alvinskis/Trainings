@@ -11,3 +11,16 @@ C:\Users\modestas.alvinskis\Desktop\Trainings\BookShop\bin\Debug\netcoreapp3.0\C
 C:\Users\modestas.alvinskis\Desktop\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.csproj.CopyComplete
 C:\Users\modestas.alvinskis\Desktop\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.dll
 C:\Users\modestas.alvinskis\Desktop\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.AssemblyInfoInputs.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.AssemblyInfo.cs
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\bin\Debug\netcoreapp3.0\BookShop.exe
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\bin\Debug\netcoreapp3.0\BookShop.deps.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\bin\Debug\netcoreapp3.0\BookShop.runtimeconfig.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\bin\Debug\netcoreapp3.0\BookShop.runtimeconfig.dev.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\bin\Debug\netcoreapp3.0\BookShop.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\bin\Debug\netcoreapp3.0\BookShop.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\bin\Debug\netcoreapp3.0\CsvHelper.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\obj\Debug\netcoreapp3.0\BookShop.csproj.CopyComplete
