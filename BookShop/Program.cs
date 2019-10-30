@@ -8,8 +8,7 @@ namespace BookShop
         static void Main(string[] args)
         {
             var book = new BookRepository();
-            book.BookReader();
-            book.OrderedList();
+            book.DeleteBook("Anna Karenina");
         }
     }
 }

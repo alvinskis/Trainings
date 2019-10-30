@@ -41,19 +41,30 @@ namespace BookShop
         }
         public void OrderedList()
         {
+            Console.WriteLine("List of books ordered by genre and author:\n");
             var orderedBook = book.OrderBy(b => b.Genre).ThenBy(b => b.Author);
             foreach (var order in orderedBook)
             {
-                Console.WriteLine($"Title: {order.Title}; \t\tAuthor: {order.Author}\t; Genre: {order.Genre}; Price: {order.Price}");
+                Console.WriteLine($"Title: {order.Title}; Author: {order.Author}; Genre: {order.Genre}; Price: {order.Price}");
             }
         }
         public void SearchBook(string title)
         {
             var searchBook = book.Find(b => b.Title == title);
-            Console.WriteLine(searchBook.Author);
+            Console.WriteLine($"Found book by title '{title}':\n{searchBook.Title} by {searchBook.Author}");
         }
         public void DeleteBook(string title)
         {
+            BookReader();
+            var bookToDelete = book.Single(b => b.Title == title);
+            book.Remove(bookToDelete);
+            using (StreamWriter file = new StreamWriter(_filePath, false))
+            {
+                foreach (var rewriteBook in book)
+                {
+                    file.WriteLine($"{rewriteBook.Title}, {rewriteBook.Author}, {rewriteBook.Genre}, {rewriteBook.Price}");
+                }
+            }
         }
     }
 }

@@ -23,3 +23,7 @@ BookService - manipuliuosim duomenis, injectinam IBookRepository
 Book - modelis
 BookRepository : IBookRepository - gauna duomenis, siuncia duomenis  (IEnumberable<book> GetBooks())
 ReadCsv
+
+
+Metodai List type.
+Metodai is BookRepository kvieciami per BookService sukurtus metodus.
