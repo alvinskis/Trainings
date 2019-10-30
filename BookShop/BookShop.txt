@@ -1,0 +1,29 @@
+
+1. Create a bookshop. MAX 15 books
+	a. Create a csv file with a list of books (13) (Title, Author, Genre, Price)
+	b. User should be allowed to add a book
+	c. See all list of books (order by genre, author)
+	d. Search book with a certain title
+	e. Search book by genre, search by author
+	f. Delete a book by the title
+	g. User should be able to buy a book. If user buys more books, he gets a discount. Conditions:
+		 i. Two books: 10%
+		ii. Three books: 15%
+	   iii. Four books: 20%
+		iv. Five books and at least 3 different genres 50% otherwise 25%.
+
+
+Book repository(bendraus su duombaze(CSV failas), servisiukas), book service(naudoji repo ir atlieki funkcionaluma).
+Book klase su properties,
+
+servisas calina repo kad gauti duomenis, repo updatina juos.
+
+IBookService
+BookService - manipuliuosim duomenis, injectinam IBookRepository
+Book - modelis
+BookRepository : IBookRepository - gauna duomenis, siuncia duomenis  (IEnumberable<book> GetBooks())
+ReadCsv
+
+
+Metodai List type.
+Metodai is BookRepository kvieciami per BookService sukurtus metodus.

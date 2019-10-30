@@ -1,0 +1,14 @@
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\bin\Debug\netcoreapp2.2\DemoApp.deps.json
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\bin\Debug\netcoreapp2.2\DemoApp.runtimeconfig.json
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\bin\Debug\netcoreapp2.2\DemoApp.runtimeconfig.dev.json
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\bin\Debug\netcoreapp2.2\DemoApp.dll
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\bin\Debug\netcoreapp2.2\DemoApp.pdb
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.csprojAssemblyReference.cache
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.csproj.CoreCompileInputs.cache
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.RazorAssemblyInfo.cache
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.RazorAssemblyInfo.cs
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.AssemblyInfoInputs.cache
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.AssemblyInfo.cs
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.RazorTargetAssemblyInfo.cache
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.dll
+C:\Users\vladislav.sarunov\source\repos\DemoApp\DemoApp\obj\Debug\netcoreapp2.2\DemoApp.pdb

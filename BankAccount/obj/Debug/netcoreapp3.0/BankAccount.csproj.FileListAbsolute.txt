@@ -1,0 +1,11 @@
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\bin\Debug\netcoreapp3.0\BankAccount.exe
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\bin\Debug\netcoreapp3.0\BankAccount.deps.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\bin\Debug\netcoreapp3.0\BankAccount.runtimeconfig.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\bin\Debug\netcoreapp3.0\BankAccount.runtimeconfig.dev.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\bin\Debug\netcoreapp3.0\BankAccount.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\bin\Debug\netcoreapp3.0\BankAccount.pdb
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\obj\Debug\netcoreapp3.0\BankAccount.csprojAssemblyReference.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\obj\Debug\netcoreapp3.0\BankAccount.AssemblyInfoInputs.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\obj\Debug\netcoreapp3.0\BankAccount.AssemblyInfo.cs
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\obj\Debug\netcoreapp3.0\BankAccount.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\BankAccount\obj\Debug\netcoreapp3.0\BankAccount.pdb

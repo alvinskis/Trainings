@@ -1,0 +1,4 @@
+1. Find a 6 digit magic number.
+    a. All numbers are different.
+    b. If you will multiply magic number from 2 - result will be 6 digit number created from the same numbers that magic number has just in different order, 
+       number can't be in the same place as it was before (ex 125874 * 2 = 251748 ), the same should happen if we multiply number by 3, 4, 5, 6.
