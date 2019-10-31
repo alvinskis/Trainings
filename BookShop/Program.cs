@@ -7,8 +7,9 @@ namespace BookShop
     {
         static void Main(string[] args)
         {
-            var book = new BookRepository(@"C:\Users\xmodi\Desktop\C#Trainings\Trainings\BookShop\BookShop.csv");
-            book.ProcessFile();
+            var book = new BookRepository(@"C:\Users\modestas.alvinskis\Desktop\Trainings\BookShop\BookShop.csv");
+            book.OrderedList();
+
         }
     }
 }

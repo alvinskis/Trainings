@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\BookShop\\BookShop.csproj": {}
+    "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\BookShop\\BookShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\BookShop\\BookShop.csproj": {
+    "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\BookShop\\BookShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\BookShop\\BookShop.csproj",
+        "projectUniqueName": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\BookShop\\BookShop.csproj",
         "projectName": "BookShop",
-        "projectPath": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\BookShop\\BookShop.csproj",
-        "packagesPath": "C:\\Users\\xmodi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\BookShop\\obj\\",
+        "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\BookShop\\BookShop.csproj",
+        "packagesPath": "C:\\Users\\modestas.alvinskis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\BookShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\xmodi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\modestas.alvinskis\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladislav.sarunov\\source\\repos\\DemoApp\\DemoApp\\DemoApp.csproj": {}
+    "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\DemoApp\\DemoApp\\DemoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladislav.sarunov\\source\\repos\\DemoApp\\DemoApp\\DemoApp.csproj": {
+    "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\DemoApp\\DemoApp\\DemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladislav.sarunov\\source\\repos\\DemoApp\\DemoApp\\DemoApp.csproj",
+        "projectUniqueName": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\DemoApp\\DemoApp\\DemoApp.csproj",
         "projectName": "DemoApp",
-        "projectPath": "C:\\Users\\vladislav.sarunov\\source\\repos\\DemoApp\\DemoApp\\DemoApp.csproj",
-        "packagesPath": "C:\\Users\\vladislav.sarunov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladislav.sarunov\\source\\repos\\DemoApp\\DemoApp\\obj\\",
+        "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\DemoApp\\DemoApp\\DemoApp.csproj",
+        "packagesPath": "C:\\Users\\modestas.alvinskis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Trainings\\DemoApp\\DemoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vladislav.sarunov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\modestas.alvinskis\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://euromonitor.pkgs.visualstudio.com/_packaging/EMI-Shared@Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -61,10 +58,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

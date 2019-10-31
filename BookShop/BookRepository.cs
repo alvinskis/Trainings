@@ -7,15 +7,13 @@ using CsvHelper;
 
 namespace BookShop
 {
-    class BookRepository
+    class BookRepository : IBookRepository
     {
         private static string _path;
         public BookRepository(string path)
         {
             _path = path;
         }
-
-        //var book = ProcessFile(_path);
 
         public List<Book> ProcessFile()
         {
@@ -24,6 +22,17 @@ namespace BookShop
                    .Where(line => line.Length > 1)
                    .Select(Book.ParseFromCsv)
                    .ToList();
+        }
+
+        public void OrderedList()
+        {
+            var book = ProcessFile();
+            Console.WriteLine("List of books ordered by genre:\n");
+            var orderedBook = book.OrderBy(b => b.Genre);
+            foreach (var order in orderedBook)
+            {
+                Console.WriteLine($"Title: {order.Title}; Author: {order.Author}; Genre: {order.Genre}; Price: {order.Price}");
+            }
         }
         //List<Book> book = new List<Book>();
         //public void BookReader()

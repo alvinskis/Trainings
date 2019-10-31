@@ -6,6 +6,6 @@ namespace BookShop
 {
     class BookService
     {
-        
+
     }
 }

@@ -6,5 +6,6 @@ namespace BookShop
 {
     interface IBookRepository
     {
+        void OrderedList();
     }
 }
