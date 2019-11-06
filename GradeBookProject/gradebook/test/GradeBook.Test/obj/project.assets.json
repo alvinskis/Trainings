@@ -6852,35 +6852,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\modestas.alvinskis\\.nuget\\packages\\": {},
+    "C:\\Users\\xmodi\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
+      "projectUniqueName": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
       "projectName": "GradeBook.Test",
-      "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
-      "packagesPath": "C:\\Users\\modestas.alvinskis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\obj\\",
+      "projectPath": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
+      "packagesPath": "C:\\Users\\xmodi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\GradeBookProject\\gradebook\\test\\GradeBook.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\modestas.alvinskis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\xmodi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\src\\Gradebook\\Gradebook.csproj": {
-              "projectPath": "C:\\Users\\modestas.alvinskis\\Desktop\\Tainings\\GradeBookProject\\gradebook\\src\\Gradebook\\Gradebook.csproj"
+            "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\GradeBookProject\\gradebook\\src\\Gradebook\\Gradebook.csproj": {
+              "projectPath": "C:\\Users\\xmodi\\Desktop\\C#Trainings\\Trainings\\GradeBookProject\\gradebook\\src\\Gradebook\\Gradebook.csproj"
             }
           }
         }

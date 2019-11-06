@@ -1,0 +1,11 @@
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\bin\Debug\netcoreapp3.0\IntegerManipulation.exe
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\bin\Debug\netcoreapp3.0\IntegerManipulation.deps.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\bin\Debug\netcoreapp3.0\IntegerManipulation.runtimeconfig.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\bin\Debug\netcoreapp3.0\IntegerManipulation.runtimeconfig.dev.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\bin\Debug\netcoreapp3.0\IntegerManipulation.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\bin\Debug\netcoreapp3.0\IntegerManipulation.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\obj\Debug\netcoreapp3.0\IntegerManipulation.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\obj\Debug\netcoreapp3.0\IntegerManipulation.AssemblyInfoInputs.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\obj\Debug\netcoreapp3.0\IntegerManipulation.AssemblyInfo.cs
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\obj\Debug\netcoreapp3.0\IntegerManipulation.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\IntegerManipulation\obj\Debug\netcoreapp3.0\IntegerManipulation.pdb

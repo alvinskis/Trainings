@@ -1,0 +1,11 @@
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\bin\Debug\netcoreapp3.0\ConvNumToString.exe
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\bin\Debug\netcoreapp3.0\ConvNumToString.deps.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\bin\Debug\netcoreapp3.0\ConvNumToString.runtimeconfig.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\bin\Debug\netcoreapp3.0\ConvNumToString.runtimeconfig.dev.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\bin\Debug\netcoreapp3.0\ConvNumToString.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\bin\Debug\netcoreapp3.0\ConvNumToString.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\obj\Debug\netcoreapp3.0\ConvNumToString.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\obj\Debug\netcoreapp3.0\ConvNumToString.AssemblyInfoInputs.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\obj\Debug\netcoreapp3.0\ConvNumToString.AssemblyInfo.cs
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\obj\Debug\netcoreapp3.0\ConvNumToString.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ConvNumToString\obj\Debug\netcoreapp3.0\ConvNumToString.pdb

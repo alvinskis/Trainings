@@ -1,0 +1,11 @@
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\bin\Debug\netcoreapp3.0\WordManipulation.exe
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\bin\Debug\netcoreapp3.0\WordManipulation.deps.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\bin\Debug\netcoreapp3.0\WordManipulation.runtimeconfig.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\bin\Debug\netcoreapp3.0\WordManipulation.runtimeconfig.dev.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\bin\Debug\netcoreapp3.0\WordManipulation.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\bin\Debug\netcoreapp3.0\WordManipulation.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\obj\Debug\netcoreapp3.0\WordManipulation.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\obj\Debug\netcoreapp3.0\WordManipulation.AssemblyInfoInputs.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\obj\Debug\netcoreapp3.0\WordManipulation.AssemblyInfo.cs
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\obj\Debug\netcoreapp3.0\WordManipulation.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\WordManipulation\obj\Debug\netcoreapp3.0\WordManipulation.pdb

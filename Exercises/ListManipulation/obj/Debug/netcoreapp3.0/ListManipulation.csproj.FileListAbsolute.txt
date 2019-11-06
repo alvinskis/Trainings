@@ -1,0 +1,11 @@
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\obj\Debug\netcoreapp3.0\ListManipulation.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\obj\Debug\netcoreapp3.0\ListManipulation.AssemblyInfoInputs.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\obj\Debug\netcoreapp3.0\ListManipulation.AssemblyInfo.cs
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\bin\Debug\netcoreapp3.0\ListManipulation.exe
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\bin\Debug\netcoreapp3.0\ListManipulation.deps.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\bin\Debug\netcoreapp3.0\ListManipulation.runtimeconfig.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\bin\Debug\netcoreapp3.0\ListManipulation.runtimeconfig.dev.json
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\bin\Debug\netcoreapp3.0\ListManipulation.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\bin\Debug\netcoreapp3.0\ListManipulation.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\obj\Debug\netcoreapp3.0\ListManipulation.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\Exercises\ListManipulation\obj\Debug\netcoreapp3.0\ListManipulation.pdb
