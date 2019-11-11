@@ -1,0 +1,8 @@
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\bin\Debug\ACM.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\bin\Debug\ACM.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\obj\Debug\ACM.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\obj\Debug\ACM.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\obj\Debug\ACM.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\bin\Debug\Acme.Common.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\bin\Debug\Acme.Common.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\ACM\obj\Debug\ACM.csproj.CopyComplete

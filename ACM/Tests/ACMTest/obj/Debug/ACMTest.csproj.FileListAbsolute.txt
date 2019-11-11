@@ -1,0 +1,17 @@
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\ACMTest.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\ACMTest.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\ACM.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\ACM.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\obj\Debug\ACMTest.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\obj\Debug\ACMTest.csproj.CopyComplete
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\obj\Debug\ACMTest.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\obj\Debug\ACMTest.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Acme.Common.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Tests\ACMTest\bin\Debug\Acme.Common.pdb

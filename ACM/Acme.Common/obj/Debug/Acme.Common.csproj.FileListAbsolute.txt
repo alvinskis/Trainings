@@ -1,0 +1,5 @@
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Acme.Common\bin\Debug\Acme.Common.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Acme.Common\bin\Debug\Acme.Common.pdb
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Acme.Common\obj\Debug\Acme.Common.csprojAssemblyReference.cache
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Acme.Common\obj\Debug\Acme.Common.dll
+C:\Users\xmodi\Desktop\C#Trainings\Trainings\ACM\Acme.Common\obj\Debug\Acme.Common.pdb
