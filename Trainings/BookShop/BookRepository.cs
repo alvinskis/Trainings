@@ -7,14 +7,15 @@ using CsvHelper;
 
 namespace BookShop
 {
-    class BookRepository : IBookRepository
+    public class BookRepository : IBookRepository
     {
-        private static string _path;
+        private string _path;
         public BookRepository(string path)
         {
             _path = path;
         }
 
+        //Read CSV file
         public List<Book> ProcessFile()
         {
             return File.ReadAllLines(_path)
@@ -23,72 +24,111 @@ namespace BookShop
                    .Select(Book.ParseFromCsv)
                    .ToList();
         }
-
-        public void OrderedList()
+        
+        //Add book to CSV file
+        public void AddBook(string title, string author, string genre, double price)
         {
             var book = ProcessFile();
-            Console.WriteLine("List of books ordered by genre:\n");
-            var orderedBook = book.OrderBy(b => b.Genre);
-            foreach (var order in orderedBook)
+            if (book.Count < 15)
+            {
+                using (StreamWriter file = new StreamWriter(_path, true))
+                {
+                    file.WriteLine($"{title},{author},{genre},{price}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Too many books in the bookshop, max 15 books");
+            }
+        }
+
+        //List of ordered books
+        public void OrderedListOfBooks(int orderBy)
+        {
+            var book = ProcessFile();
+
+            switch (orderBy)
+            {
+                case 1:
+                    Console.WriteLine("List of books ordered by title:\n");
+                    book = book.OrderBy(b => b.Title).ToList();
+                    break;
+                case 2:
+                    Console.WriteLine("List of books ordered by author:\n");
+                    book = book.OrderBy(b => b.Author).ToList();
+                    break;
+                case 3:
+                    Console.WriteLine("List of books ordered by genre:\n");
+                    book = book.OrderBy(b => b.Genre).ToList();
+                    break;
+                case 4:
+                    Console.WriteLine("List of books ordered by price:\n");
+                    book = book.OrderBy(b => b.Price).ToList();
+                    break;
+            }
+
+            foreach (var order in book)
             {
                 Console.WriteLine($"Title: {order.Title}; Author: {order.Author}; Genre: {order.Genre}; Price: {order.Price}");
             }
         }
-        //List<Book> book = new List<Book>();
-        //public void BookReader()
-        //{
-        //    using (TextReader reader = File.OpenText(_filePath))
-        //    {
-        //        CsvReader csv = new CsvReader(reader);
-        //        csv.Configuration.Delimiter = ", ";
-        //        csv.Configuration.MissingFieldFound = null;
-        //        while (csv.Read())
-        //        {
-        //            Book record = csv.GetRecord<Book>();
-        //            book.Add(record);
-        //        }
-        //    }
-        //}
-        //public void AddBook(string title, string author, string genre, double price)
-        //{
-        //    try
-        //    {
-        //        using (StreamWriter file = new StreamWriter(_filePath, true))
-        //        {
-        //            file.WriteLine($"{title}, {author}, {genre}, {price}");
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new ApplicationException("Something goes wrong: ", ex);
-        //    }
-        //}
-        //public void OrderedList()
-        //{
-        //    Console.WriteLine("List of books ordered by genre and author:\n");
-        //    var orderedBook = book.OrderBy(b => b.Genre).ThenBy(b => b.Author);
-        //    foreach (var order in orderedBook)
-        //    {
-        //        Console.WriteLine($"Title: {order.Title}; Author: {order.Author}; Genre: {order.Genre}; Price: {order.Price}");
-        //    }
-        //}
-        //public void SearchBook(string title)
-        //{
-        //    var searchBook = book.Find(b => b.Title == title);
-        //    Console.WriteLine($"Found book by title '{title}':\n{searchBook.Title} by {searchBook.Author}");
-        //}
-        //public void DeleteBook(string title)
-        //{
-        //    //BookReader();
-        //    var bookToDelete = book.Single(b => b.Title == title);
-        //    book.Remove(bookToDelete);
-        //    using (StreamWriter file = new StreamWriter(_filePath, false))
-        //    {
-        //        foreach (var rewriteBook in book)
-        //        {
-        //            file.WriteLine($"{rewriteBook.Title}, {rewriteBook.Author}, {rewriteBook.Genre}, {rewriteBook.Price}");
-        //        }
-        //    }
-        //}
+
+        //Search book
+        public void SearchBook(int searchBy, string value)
+        {
+            var book = ProcessFile();
+            switch (searchBy)
+            {
+                case 1:
+                    book = book.FindAll(b => b.Title == value);
+                    break;
+                case 2:
+                    book = book.FindAll(b => b.Author == value);
+                    break;
+                case 3:
+                    book = book.FindAll(b => b.Genre == value);
+                    break;
+                case 4:
+                    var toString = double.Parse(value);
+                    book = book.FindAll(b => b.Price == toString);
+                    break;
+            }
+            foreach (var searchedBook in book)
+            {
+                Console.WriteLine($"Searched book: {searchedBook.Title}, {searchedBook.Author}, {searchedBook.Genre}, {searchedBook.Price}");
+            }
+        }
+
+        //Delete a book by title
+        public void DeleteBook(string title)
+        {
+            var book = ProcessFile();
+            var bookToDelete = book.Single(b => b.Title == title);
+            book.Remove(bookToDelete);
+            using (StreamWriter file = new StreamWriter(_path, false))
+            {
+                file.WriteLine("Title, Author, Genre, Price");
+                foreach (var rewriteBook in book)
+                {
+                    file.WriteLine($"{rewriteBook.Title},{rewriteBook.Author},{rewriteBook.Genre},{rewriteBook.Price}");
+                }
+            }
+        }
+
+        public void BuyBook(string title)
+        {
+            var book = ProcessFile();
+            List<Book> purchasedBook;
+            purchasedBook = book.Where(b => b.Title == title).ToList();
+            WriteList(purchasedBook);
+        }
+        private static void WriteList(IEnumerable<Book> list)
+        {
+            Console.WriteLine();
+            foreach (var item in list)
+            {
+                Console.WriteLine("item: {0}", item.Title);
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@
 1. Create a bookshop. MAX 15 books
 	a. Create a csv file with a list of books (13) (Title, Author, Genre, Price)
 	b. User should be allowed to add a book
-	c. See all list of books (order by genre, author)
+	c. See all list of books (order by title or author or genre or price)
 	d. Search book with a certain title
 	e. Search book by genre, search by author
 	f. Delete a book by the title
