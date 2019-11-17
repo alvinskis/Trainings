@@ -10,6 +10,6 @@ namespace BookShop
         void OrderedListOfBooks(int orderBy);
         void SearchBook(int searchBy, string value);
         void DeleteBook(string title);
-        void BuyBook(string title);
+        List<Book> ProcessFile();
     }
 }
