@@ -65,7 +65,7 @@ namespace BookShop
                 case 4:
                     totalPrice = price * 0.8;
                     break;
-                case 5:
+                case 5://Vietoj if susikurti atskira private methoda ir is cia callinti
                     if (genreCount >= 3)
                     {
                         totalPrice = price * 0.5;

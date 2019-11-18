@@ -20,3 +20,14 @@ C:\Users\xmodi\Desktop\C#Trainings\Trainings\Trainings\MagicNumber\obj\Debug\net
 C:\Users\xmodi\Desktop\C#Trainings\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.AssemblyInfo.cs
 C:\Users\xmodi\Desktop\C#Trainings\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.dll
 C:\Users\xmodi\Desktop\C#Trainings\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.pdb
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\bin\Debug\netcoreapp3.0\MagicNumber.exe
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\bin\Debug\netcoreapp3.0\MagicNumber.deps.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\bin\Debug\netcoreapp3.0\MagicNumber.runtimeconfig.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\bin\Debug\netcoreapp3.0\MagicNumber.runtimeconfig.dev.json
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\bin\Debug\netcoreapp3.0\MagicNumber.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\bin\Debug\netcoreapp3.0\MagicNumber.pdb
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.csprojAssemblyReference.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.AssemblyInfoInputs.cache
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.AssemblyInfo.cs
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.dll
+C:\Users\modestas.alvinskis\Desktop\Trainings\Trainings\MagicNumber\obj\Debug\netcoreapp3.0\MagicNumber.pdb
