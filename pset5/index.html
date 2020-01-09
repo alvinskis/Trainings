@@ -1,27 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <title>Home Page</title>
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <title>Home Page</title>
+    </head>
+    <body>
+        <h3 class="centerText">Please fill the form bellow</h3>
+        <div>
+            <form id="form" action="/index.html" method="GET">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter Your Name">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
 
-    <div class="container-fluid">
-        <h1>Hello, world!</h1>
-    </div>
-
-    <ul class="a">
         <!--Links to pages-->
-        <li <a href="page1.html">LinkToFirstPage</a></li>>
-        <li href="page2.html">LinkToSecondPage</a>
-        <li href="page3.html">LinkToThirdPage</a>
-    </ul>
+        <ul class="ulSportPage">
+            <li><a href="sport.html">Sports</a></li>
+        </ul>
+        <ul class="ulFoodPage">
+            <li><a href="food.html">Food</a></li>
+        </ul>
+        <ul class="ulMoviePage">
+            <li><a href="movie.html">Movie</a></li>
+        </ul>
 
-  </body>
+    </body>
 </html>
