@@ -12,6 +12,35 @@
     <div class="divText">
         <h1>Error 404</h1>
     </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Get Text Input Field Value in JavaScript</title>
+    </head>
+
+    <body>
+        <input type="text" placeholder="Type something..." id="myInput">
+        <button type="button" onclick="getInputValue();">Get Value</button>
+
+        <p id="output"></p>
+
+        <script>
+            function getInputValue() {
+                // Selecting the input element and get its value 
+                var inputVal = document.getElementById("myInput").value;
+
+                // Displaying the value
+
+                document.getElementById("output").innerHTML = "Hello " + inputVal + "!";
+            }
+        </script>
+    </body>
+
+    </html>
+
     <a href="index.html">Back to Home Page</a>
 </body>
 

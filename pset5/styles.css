@@ -1,43 +1,51 @@
 /* -------------------------------------------------------------------------- */
-/*                               Home page body                               */
-/* -------------------------------------------------------------------------- */
-body {
-	margin: 0;
-	width: 100%;
-	height: 100vh;
-	font-family: "Exo", sans-serif;
-	color: #fff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
-}
 
+/*                               Home page body                               */
+
+/* -------------------------------------------------------------------------- */
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
 
 @keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* -------------------------------------------------------------------------- */
+
 /*                               Sport page body                              */
+
 /* -------------------------------------------------------------------------- */
+
 /*.bodySportPage
 {
     background-image: url("https://mcdn.wallpapersafari.com/medium/9/14/EJnSXN.jpg");
     background-size: 200px 200px;
 }*/
+
 /* -------------------------------------------------------------------------- */
+
 /*                                Div for Text                                */
+
 /* -------------------------------------------------------------------------- */
-.divText
-{
+
+.divText {
     margin: auto;
     margin-top: 100px;
     width: 20%;
@@ -46,13 +54,14 @@ body {
     padding: 20px;
     text-align: center;
 }
+
 /* -------------------------------------------------------------------------- */
 
 .container {
-	width: 100%;
-	position: absolute;
-	top: 35%;
-	text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
 }
 
 h1 {
@@ -60,65 +69,106 @@ h1 {
 }
 
 h3 {
-	color: #eee;
-	font-weight: 100;
+    color: #eee;
+    font-weight: 100;
 }
 
 h5 {
-	color:#eee;
-	font-weight:300;
+    color: #eee;
+    font-weight: 300;
 }
 
-a,
-a:hover {
-	text-decoration: none;
-	color: #ddd;
+a, a:hover {
+    text-decoration: none;
+    color: #ddd;
 }
 
 /* -------------------------------------------------------------------------- */
+
 /*                                List of Links                               */
+
 /* -------------------------------------------------------------------------- */
-.ulSportPage
-{
+
+.ulSportPage {
     list-style-image: url("https://img.icons8.com/offices/30/000000/basketball.png");
     font-size: 35px;
 }
-.ulFoodPage
-{
+
+.ulFoodPage {
     list-style-image: url("https://img.icons8.com/doodle/30/000000/broccoli.png");
     font-size: 35px;
 }
-.ulMoviePage
-{
+
+.ulMoviePage {
     list-style-image: url("https://img.icons8.com/nolan/30/movie.png");
     font-size: 35px;
 }
+
 /* -------------------------------------------------------------------------- */
-.centerText
-{
+
+.centerText {
     text-align: center;
-    line-height: 10;
+    line-height: 9;
 }
-div
-{
+
+.divForm {
     margin: auto;
+    color: black;
     margin-top: -100px;
     width: 20%;
     border-radius: 15px;
     background-color: lightgray;
     padding: 20px;
 }
-input[type=text]
-{
+
+input[type=text] {
     width: 100%;
     display: inline-block;
     box-sizing: border-box;
 }
-input[type=submit]
-{
+
+input[type=submit] {
     margin: 8px 0;
 }
-input[type=submit]:hover
-{
+
+input[type=submit]:hover {
     background-color: lime;
+}
+
+.doYouKnowMe {
+    position: relative;
+    display: inline-block;
+}
+
+
+.button {
+    border: none;
+    color: black;
+    padding: 8px 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.links {
+    min-width: 200px;
+    position: absolute;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    background: yellowgreen;
+    font-size: 18px;
+    padding: 8px 2px;
+    display: block;
+}
+
+
+
+.links a:hover{
+    background-color: blue;
+}
+
+.doYouKnowMe:hover .links {
+    display: inline;
 }

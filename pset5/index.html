@@ -1,37 +1,62 @@
 <!doctype html>
+
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <link href="styles.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <title>Home Page</title>
-    </head>
-    <body>
-        <h3 class="centerText">Please fill the form bellow</h3>
-        <div>
-            <form id="form" action="/index.html" method="GET">
-                <label for="firstname">First Name</label>
-                <input type="text" id="firstname" name="firstname" placeholder="Enter Your Name">
-                <label for="lastname">Last Name</label>
-                <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name">
-                <input type="submit" value="Submit">
-            </form>
-        </div>
 
-        <!--Links to pages-->
-        <ul class="ulSportPage">
-            <li><a href="sport.html">Sports</a></li>
-        </ul>
-        <ul class="ulFoodPage">
-            <li><a href="food.html">Food</a></li>
-        </ul>
-        <ul class="ulMoviePage">
-            <li><a href="movie.html">Movie</a></li>
-        </ul>
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Home Page</title>
+</head>
 
-    </body>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href=""></a>Results</li>
+                <li><a href=""></a>Fun facts</li>
+                <div class="doYouKnowMe">
+                    <input type="button" class="button" value="Do You Know Me?">
+                    <div class="links">
+                        <li><a href="sport.html">Sports</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="movie.html">Movie</a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <h3 class="centerText">Please enter your name to start the quiz</h3>
+    <div>
+        <form class="divForm">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter Your Name">
+            <input type="button" onclick="InputValue();" value="Submit">
+        </form>
+    </div>
+
+    <p id="outputName"></p>
+
+    <script>
+        function InputValue() {
+            var nameValue = document.getElementById("firstname").value;
+            document.getElementById("outputName").innerHTML = nameValue;
+        }
+    </script>
+
+
+
+    <!--Links to pages-->
+    <ul class="ulSportPage">
+        <li><a href="sport.html">Sports</a></li>
+    </ul>
+    <ul class="ulFoodPage">
+        <li><a href="food.html">Food</a></li>
+    </ul>
+    <ul class="ulMoviePage">
+        <li><a href="movie.html">Movie</a></li>
+    </ul>
+
+</body>
+
 </html>
