@@ -10,21 +10,27 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href=""></a>Results</li>
-                <li><a href=""></a>Fun facts</li>
-                <div class="doYouKnowMe">
-                    <input type="button" class="button" value="Do You Know Me?">
-                    <div class="links">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="">Results</a>
+            <a href="">Fun facts</a>
+            <div class="dropDownMenu">
+                <input type="button" class="button" value="Do You Know Me?">
+                <div class="links">
+                    <ul class="ulSportPage">
                         <li><a href="sport.html">Sports</a></li>
+                    </ul>
+                    <ul class="ulFoodPage">
                         <li><a href="food.html">Food</a></li>
+                    </ul>
+                    <ul class="ulMoviePage">
                         <li><a href="movie.html">Movie</a></li>
-                    </div>
+                    </ul>
                 </div>
-            </ul>
-        </nav>
+            </div>
+        </div>
+
+
     </header>
     <h3 class="centerText">Please enter your name to start the quiz</h3>
     <div>
@@ -44,8 +50,6 @@
         }
     </script>
 
-
-
     <!--Links to pages-->
     <ul class="ulSportPage">
         <li><a href="sport.html">Sports</a></li>
@@ -56,6 +60,14 @@
     <ul class="ulMoviePage">
         <li><a href="movie.html">Movie</a></li>
     </ul>
+
+    <div class="dropDownMenu">
+        <input type="button" class="button" value="PressMe">
+        <div class="links">
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+        </div>
+    </div>
 
 </body>
 

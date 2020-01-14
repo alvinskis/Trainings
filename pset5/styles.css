@@ -1,9 +1,3 @@
-/* -------------------------------------------------------------------------- */
-
-/*                               Home page body                               */
-
-/* -------------------------------------------------------------------------- */
-
 body {
     margin: 0;
     width: 100%;
@@ -27,24 +21,6 @@ body {
     }
 }
 
-/* -------------------------------------------------------------------------- */
-
-/*                               Sport page body                              */
-
-/* -------------------------------------------------------------------------- */
-
-/*.bodySportPage
-{
-    background-image: url("https://mcdn.wallpapersafari.com/medium/9/14/EJnSXN.jpg");
-    background-size: 200px 200px;
-}*/
-
-/* -------------------------------------------------------------------------- */
-
-/*                                Div for Text                                */
-
-/* -------------------------------------------------------------------------- */
-
 .divText {
     margin: auto;
     margin-top: 100px;
@@ -55,56 +31,29 @@ body {
     text-align: center;
 }
 
-/* -------------------------------------------------------------------------- */
-
-.container {
-    width: 100%;
-    position: absolute;
-    top: 35%;
-    text-align: center;
-}
-
-h1 {
-    font-weight: 300;
-}
-
-h3 {
-    color: #eee;
-    font-weight: 100;
-}
-
-h5 {
-    color: #eee;
-    font-weight: 300;
-}
-
-a, a:hover {
-    text-decoration: none;
-    color: #ddd;
-}
-
-/* -------------------------------------------------------------------------- */
-
-/*                                List of Links                               */
-
-/* -------------------------------------------------------------------------- */
-
 .ulSportPage {
-    list-style-image: url("https://img.icons8.com/offices/30/000000/basketball.png");
-    font-size: 35px;
+    list-style-type: none;
+}
+
+.ulSportPage:hover {
+    list-style-image: url("https://img.icons8.com/offices/20/000000/basketball.png");
 }
 
 .ulFoodPage {
-    list-style-image: url("https://img.icons8.com/doodle/30/000000/broccoli.png");
-    font-size: 35px;
+    list-style: none;
+}
+
+.ulFoodPage:hover {
+    list-style-image: url("https://img.icons8.com/doodle/20/000000/broccoli.png");
 }
 
 .ulMoviePage {
-    list-style-image: url("https://img.icons8.com/nolan/30/movie.png");
-    font-size: 35px;
+    list-style: none;
 }
 
-/* -------------------------------------------------------------------------- */
+.ulMoviePage:hover {
+    list-style-image: url("https://img.icons8.com/nolan/20/movie.png");
+}
 
 .centerText {
     text-align: center;
@@ -135,17 +84,22 @@ input[type=submit]:hover {
     background-color: lime;
 }
 
-.doYouKnowMe {
+/*---- Drop down menu section ----*/
+
+.dropDownMenu {
+    width: 10px;
     position: relative;
-    display: inline-block;
 }
 
+.dropDownMenu:hover .links a {
+    display: block;
+}
 
 .button {
     border: none;
-    color: black;
-    padding: 8px 12px;
-    font-size: 18px;
+    color: white;
+    background: none;
+    font-size: 10px;
     cursor: pointer;
 }
 
@@ -154,21 +108,26 @@ input[type=submit]:hover {
     position: absolute;
 }
 
-.links a{
+.links a {
     text-decoration: none;
     color: white;
-    background: yellowgreen;
+    background: #e73c7e;
     font-size: 18px;
     padding: 8px 2px;
-    display: block;
+    display: none;
+    transition: 0.3;
 }
 
-
-
-.links a:hover{
-    background-color: blue;
+.links a:hover {
+    opacity: 0.7;
 }
 
-.doYouKnowMe:hover .links {
-    display: inline;
-}
+/*----------------------------*/
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
