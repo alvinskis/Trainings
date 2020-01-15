@@ -10,13 +10,13 @@
 
 <body>
     <header>
-        <div class="navbar">
+        <div class="navigationBar">
             <a href="index.html">Home</a>
             <a href="">Results</a>
             <a href="">Fun facts</a>
-            <div class="dropDownMenu">
-                <input type="button" class="button" value="Do You Know Me?">
-                <div class="links">
+            <div class="navigationBarDropDownMenu">
+                <button class="navigationBarDropDownButton">Do You Know Me?</button>
+                <div class="navigationBarDropDownLinks">
                     <ul class="ulSportPage">
                         <li><a href="sport.html">Sports</a></li>
                     </ul>
@@ -29,46 +29,24 @@
                 </div>
             </div>
         </div>
-
-
     </header>
     <h3 class="centerText">Please enter your name to start the quiz</h3>
     <div>
-        <form class="divForm">
+        <form class="Form">
             <label for="firstname">First Name</label>
             <input type="text" id="firstname" name="firstname" placeholder="Enter Your Name">
             <input type="button" onclick="InputValue();" value="Submit">
         </form>
     </div>
-
-    <p id="outputName"></p>
-
+    <h1>
+        <p id="outputName" class="centerText"></p>
+    </h1>
     <script>
         function InputValue() {
             var nameValue = document.getElementById("firstname").value;
-            document.getElementById("outputName").innerHTML = nameValue;
+            document.getElementById("outputName").innerHTML = "Welcome " + nameValue + "!!!";
         }
     </script>
-
-    <!--Links to pages-->
-    <ul class="ulSportPage">
-        <li><a href="sport.html">Sports</a></li>
-    </ul>
-    <ul class="ulFoodPage">
-        <li><a href="food.html">Food</a></li>
-    </ul>
-    <ul class="ulMoviePage">
-        <li><a href="movie.html">Movie</a></li>
-    </ul>
-
-    <div class="dropDownMenu">
-        <input type="button" class="button" value="PressMe">
-        <div class="links">
-            <a href="#">Link1</a>
-            <a href="#">Link2</a>
-        </div>
-    </div>
-
 </body>
 
 </html>

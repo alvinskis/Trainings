@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
-        <title>Movie</title>
-    </head>
-    <body>
-        <div class="divText">
-          <h1>Error 404</h1>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Movie</title>
+</head>
+<header>
+    <div class="navigationBar">
+        <a href="index.html">Home</a>
+        <a href="">Results</a>
+        <a href="">Fun facts</a>
+        <div class="navigationBarDropDownMenu">
+            <button class="navigationBarDropDownButton">Do You Know Me?</button>
+            <div class="navigationBarDropDownLinks">
+                <ul class="ulSportPage">
+                    <li><a href="sport.html">Sports</a></li>
+                </ul>
+                <ul class="ulFoodPage">
+                    <li><a href="food.html">Food</a></li>
+                </ul>
+                <ul class="ulMoviePage">
+                    <li><a href="movie.html">Movie</a></li>
+                </ul>
+            </div>
         </div>
-        <a href="index.html">Back to Home Page</a>
-      </body>
+    </div>
+</header>
+
+<body>
+    <h1 class="centerText">Which movie do i like the most?</h1>
+    <div class="grid">
+        <img class="a" onclick="onClickCorrect()" src="https://img.icons8.com/color/100/000000/super-hero-male.png"
+            alt="Fantastic Movie">
+        <img class="b" onclick="onClickCorrect()" src="https://img.icons8.com/officel/100/000000/horror.png"
+            alt="Horror Movie">
+        <img class="c" onclick="onClickWrong()" src="https://img.icons8.com/officel/100/000000/drama.png" alt="Drama">
+        <img class="d" onclick="onClickCorrect()" src="https://img.icons8.com/plasticine/100/000000/comedy.png"
+            alt="Comedy">
+    </div>
+    <img id="CorrectImage" class="hiddenImage" src="https://img.icons8.com/flat_round/100/000000/checkmark.png"
+        alt="Correct">
+    <img id="WrongImage" class="hiddenImage" src="https://img.icons8.com/plasticine/100/000000/multiply.png"
+        alt="Wrong">
+    <input id="resetButton" type="button" class="resetButton" onclick="reset()" value="Reset">
+    <script>
+        function onClickCorrect() {
+            document.getElementById("CorrectImage").style.display = "block"
+        }
+        function onClickWrong() {
+            document.getElementById("WrongImage").style.display = "block"
+        }
+        function reset() {
+            document.getElementById("CorrectImage").style.display = "none"
+            document.getElementById("WrongImage").style.display = "none"
+        }
+    </script>
+</body>
+
 </html>

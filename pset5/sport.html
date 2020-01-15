@@ -7,41 +7,57 @@
     <link href="styles.css" rel="stylesheet">
     <title>Sports</title>
 </head>
+<header>
+    <div class="navigationBar">
+        <a href="index.html">Home</a>
+        <a href="">Results</a>
+        <a href="">Fun facts</a>
+        <div class="navigationBarDropDownMenu">
+            <button class="navigationBarDropDownButton">Do You Know Me?</button>
+            <div class="navigationBarDropDownLinks">
+                <ul class="ulSportPage">
+                    <li><a href="sport.html">Sports</a></li>
+                </ul>
+                <ul class="ulFoodPage">
+                    <li><a href="food.html">Food</a></li>
+                </ul>
+                <ul class="ulMoviePage">
+                    <li><a href="movie.html">Movie</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
 
 <body>
-    <div class="divText">
-        <h1>Error 404</h1>
+    <h1 class="centerText">Which sport do i like the most?</h1>
+    <div class="grid">
+        <img class="a" onclick="onClickCorrect()" src="https://img.icons8.com/color/100/000000/basketball.png"
+            alt="Basketball" title="Basketball">
+        <img class="b" onclick="onClickCorrect()" src="https://img.icons8.com/cotton/100/000000/football-ball.png"
+            alt="Football" title="Football">
+        <img class="c" onclick="onClickCorrect()" src="https://img.icons8.com/color/100/000000/track-and-field.png"
+            alt="Running" title="Running">
+        <img class="d" onclick="onClickCorrect()" src="https://img.icons8.com/color/100/000000/cycling-road--v1.png"
+            alt="Cycling" title="Cycling">
     </div>
-
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="utf-8">
-        <title>Get Text Input Field Value in JavaScript</title>
-    </head>
-
-    <body>
-        <input type="text" placeholder="Type something..." id="myInput">
-        <button type="button" onclick="getInputValue();">Get Value</button>
-
-        <p id="output"></p>
-
-        <script>
-            function getInputValue() {
-                // Selecting the input element and get its value 
-                var inputVal = document.getElementById("myInput").value;
-
-                // Displaying the value
-
-                document.getElementById("output").innerHTML = "Hello " + inputVal + "!";
-            }
-        </script>
-    </body>
-
-    </html>
-
-    <a href="index.html">Back to Home Page</a>
+    <img id="CorrectImage" class="hiddenImage" src="https://img.icons8.com/flat_round/100/000000/checkmark.png"
+        alt="Correct">
+    <img id="WrongImage" class="hiddenImage" src="https://img.icons8.com/plasticine/100/000000/multiply.png"
+        alt="Wrong">
+    <input id="resetButton" type="button" class="resetButton" onclick="reset()" value="Reset">
+    <script>
+        function onClickCorrect() {
+            document.getElementById("CorrectImage").style.display = "block"
+        }
+        function onClickWrong() {
+            document.getElementById("WrongImage").style.display = "block"
+        }
+        function reset() {
+            document.getElementById("CorrectImage").style.display = "none"
+            document.getElementById("WrongImage").style.display = "none"
+        }
+    </script>
 </body>
 
 </html>
