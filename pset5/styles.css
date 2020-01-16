@@ -1,4 +1,4 @@
-body {
+#pageBody {
     margin: 0;
     width: 100%;
     height: 100vh;
@@ -57,7 +57,7 @@ body {
 
 .centerText {
     text-align: center;
-    line-height: 9;
+    line-height: 8;
 }
 
 /*# ----------------------------------- Form ----------------------------------- #*/
@@ -65,7 +65,7 @@ body {
 .Form {
     margin: auto;
     color: black;
-    margin-top: -100px;
+    margin-top: -150px;
     width: 20%;
     border-radius: 15px;
     background-color: lightgray;
@@ -192,4 +192,46 @@ body {
 
 .resetButton:hover {
     background-color: lime;
+}
+
+/*# ---------------------------------------------------------------------------- #*/
+
+#funFactsBody {
+    background-color: black;
+}
+
+.funFactsText {
+    color: white;
+    text-align: center;
+    line-height: 5;
+    font-size: 100px;
+}
+
+.funFactButton {
+    text-align: center;
+    font-size: 50px;
+}
+
+.funFactsButton[type="submit"] {
+    position: absolute;
+    top: 50%;
+}
+
+h2 {
+    text-align: center;
+    line-height: 125px;
+    color: white;
+}
+
+h1.introduction {
+    text-align: center;
+    line-height: 7;
+    font-size: 50px;
+}
+
+#outputName {
+    text-align: center;
+    font-size: 70px;
+    line-height: 5;
+    color: yellow;
 }
